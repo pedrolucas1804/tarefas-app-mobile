@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Tarefas App",
+    "slug": "tarefas-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#6C63FF"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6C63FF"
+      }
+    },
+    "scheme": "tarefas-app",
+    "plugins": ["expo-router"]
+  }
+}
